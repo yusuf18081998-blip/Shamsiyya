@@ -1,0 +1,16 @@
+{
+  "admin": {
+    "id": "admin-master",
+    "role": "admin",
+    "fullName": "Bosh ustoz A.Xo‘jayeva",
+    "username": "admin",
+    "title": "Bosh Ustoz va Markaz Rahbari"
+  },
+  "course": {
+    "title": "GROW UP A1",
+    "price": 290000,
+    "currency": "UZS"
+  },
+  "students": [],
+  "attendance": []
+}

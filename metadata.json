@@ -1,0 +1,6 @@
+{
+  "name": "Shamsiyya CRM & LMS",
+  "description": "Shamsiyya arab tili o'quv markazi uchun maxsus CRM va LMS tizimi: GROW UP A1 kursi, Manhaj A0/A1, Grammatika, moliya va sertifikatlar boshqaruvi.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
