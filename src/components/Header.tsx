@@ -1,6 +1,7 @@
 import React from 'react';
 import { AuthUser } from '../types';
 import { Shield, GraduationCap, Sparkles, LogOut } from 'lucide-react';
+import shamsiyyaLogo from '../assets/images/shamsiyya_logo_emblem_1790347598348.jpg';
 
 interface Props {
   currentUser: AuthUser;
@@ -22,7 +23,7 @@ export const Header: React.FC<Props> = ({
         <div className="flex items-center gap-3">
           <div className="relative">
             <img
-              src="/src/assets/images/shamsiyya_logo_emblem_1790347598348.jpg"
+              src={shamsiyyaLogo}
               alt="Shamsiyya Emblem"
               className="w-9 h-9 rounded-full object-cover border border-rose-200 shadow-xs"
             />

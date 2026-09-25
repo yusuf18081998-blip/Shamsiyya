@@ -1,6 +1,7 @@
 import React from 'react';
 import { Student } from '../types';
 import { X, Printer, Award, CheckCircle2, QrCode } from 'lucide-react';
+import shamsiyyaLogo from '../assets/images/shamsiyya_logo_emblem_1790347598348.jpg';
 
 interface Props {
   student: Student | null;
@@ -57,7 +58,7 @@ export const CertificateModal: React.FC<Props> = ({ student, isOpen, onClose }) 
             <div className="relative text-center pt-2">
               <div className="flex items-center justify-center gap-3 mb-2">
                 <img
-                  src="/src/assets/images/shamsiyya_logo_emblem_1790347598348.jpg"
+                  src={shamsiyyaLogo}
                   alt="Shamsiyya Emblem"
                   className="w-14 h-14 rounded-full object-cover border-2 border-amber-300 shadow-xs"
                 />

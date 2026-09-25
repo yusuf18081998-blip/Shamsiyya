@@ -11,6 +11,7 @@ import {
   EyeOff,
   ShieldCheck
 } from 'lucide-react';
+import shamsiyyaLogo from '../../assets/images/shamsiyya_logo_emblem_1790347598348.jpg';
 
 interface Props {
   students: Student[];
@@ -100,7 +101,7 @@ export const LoginScreen: React.FC<Props> = ({
         <div className="flex items-center gap-3">
           <div className="w-10 h-10 rounded-full overflow-hidden border border-rose-200 shadow-xs">
             <img
-              src="/src/assets/images/shamsiyya_logo_emblem_1790347598348.jpg"
+              src={shamsiyyaLogo}
               alt="Shamsiyya"
               className="w-full h-full object-cover"
             />
@@ -132,7 +133,7 @@ export const LoginScreen: React.FC<Props> = ({
 
             <div className="w-16 h-16 mx-auto mb-3 rounded-2xl bg-white p-1 shadow-lg ring-4 ring-white/30">
               <img
-                src="/src/assets/images/shamsiyya_logo_emblem_1790347598348.jpg"
+                src={shamsiyyaLogo}
                 alt="Shamsiyya Emblem"
                 className="w-full h-full object-cover rounded-xl"
               />
